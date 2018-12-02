@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+  font-family: Helvetica;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  color: white;
+  background-color: black;
+  height: 69px;
+  width: 100%;
+  max-width: 1000px;
+  border-bottom: 1px solid seashell;
+  padding-top: 10px;
+  padding-left: 10px;
+  z-index: 3;
+  top: -2px;
+}
+
+header .logo {
+  width: 20%;
+  margin-right: 20%;
+}
+header nav {
+  display: flex;
+  width: 60%;
+  justify-content: flex-end;
+  align-content: flex-end;
+  align-items: center;
+}
+
+header nav a {
+    width: 150px;
+}
+
+.main {
+  position: relative;
+  top: 69px;
+}
+
+.banner {
+  display: flex;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+  height: 700px;
+  width: 100%;
+  align-items: center;
+}
+
+.bannerText {
+  width: 1200px;
+}
+
+/* Product Gallery */
+
+.gallery {
+  width: 1000px;
+}
+
+.productGallery {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.productGallery img {
+  width: 300px;
+  height: 200px;
+  padding: 0 5px;
+}
+
+/* Locations */
+
+.loci {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 100%;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+  align-items: center;
+  justify-content: center;
+}
+
+.locations {
+  display: flex;
+  flex-direction: row;
+  background: none;
+  width: 100%;
+  opacity: 1;
+}
+
+.location {
+  width: 300px;
+  height: 250px;
+  margin: 0px 20px;
+  padding-top: 15px;
+}
+
+.loci h2 {
+  display: block;
+  background: none;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 70px;
+  font-size: 22px;
+}
+
+.footer .contact {
+  height: 200px;
+}
+
+.footer .cta {
+  width: 320px;
+  float: left;
+  text-align: left;
+  margin-left: 20px;
+}
